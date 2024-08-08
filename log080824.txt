@@ -46,3 +46,7 @@ Download: 723.02 Mbit/s
 Testing upload speed......................................................................................................
 Upload: 694.10 Mbit/s
 ------ End Of Test  4 -------
+------ Start Of Test  5 -------
+Thu Aug  8 07:02:31 CDT 2024
+Retrieving speedtest.net configuration...
+------ End Of Test  5 -------
