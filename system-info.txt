@@ -1,0 +1,216 @@
+System:
+  Kernel: 6.10.3-arch1-2 arch: x86_64
+    bits: 64 compiler: gcc v: 14.2.1
+    clocksource: tsc
+  Console: pty pts/4 DM: 1: GDM
+    v: 47.alpha 2: SDDM Distro: Arch Linux
+Machine:
+  Type: Desktop System: Dell
+    product: OptiPlex 7010 v: 01
+    serial: <filter> Chassis: type: 3
+    serial: <filter>
+  Mobo: Dell model: 0YXT71 v: A02
+    serial: <filter> part-nu: OptiPlex 7010
+    uuid: 4c4c4544-0039-3210-8043-b6c04f4b3032
+    UEFI: Dell v: A21 date: 12/21/2015
+Battery:
+  Device-1: hidpp_battery_14
+    model: Logitech G604 Wireless Gaming
+    Mouse serial: <filter>
+    charge: 50% (should be ignored)
+    rechargeable: yes status: N/A
+  Device-2: hidpp_battery_15
+    model: Logitech Wireless Keyboard
+    serial: <filter>
+    charge: 50% (should be ignored)
+    rechargeable: yes status: N/A
+CPU:
+  Info: quad core
+    model: Intel Core i5-3470 bits: 64
+    type: MCP smt: <unsupported>
+    arch: Ivy Bridge rev: 9 cache:
+    L1: 256 KiB L2: 1024 KiB L3: 6 MiB
+  Speed (MHz): avg: 1944 high: 2227
+    min/max: 1600/3200 volts: 2.9 V
+    ext-clock: 100 MHz cores: 1: 1597
+    2: 2014 3: 2227 4: 1938
+    bogomips: 25554
+  Flags: avx ht lm nx pae sse sse2
+    sse3 sse4_1 sse4_2 ssse3
+Graphics:
+  Device-1: Intel Xeon E3-1200 v2/3rd
+    Gen Core processor Graphics
+    vendor: Dell driver: i915 v: kernel
+    arch: Gen-7 ports: active: none
+    off: HDMI-A-2 empty: DP-1, DP-2,
+    HDMI-A-1, VGA-1 bus-ID: 00:02.0
+    chip-ID: 8086:0152 class-ID: 0300
+  Device-2: Logitech C920 HD Pro Webcam
+    driver: snd-usb-audio,uvcvideo
+    type: USB rev: 2.0 speed: 480 Mb/s
+    lanes: 1 bus-ID: 3-1:3
+    chip-ID: 046d:0892 class-ID: 0102
+    serial: <filter>
+  Display: server: X.org v: 1.21.1.13
+    with: Xwayland v: 24.1.2
+    compositor: gnome-shell driver: X:
+    loaded: modesetting
+    alternate: fbdev,intel,vesa
+    dri: crocus gpu: i915 tty: 43x20
+  Monitor-1: HDMI-A-2
+    model: Sceptre F27 serial: <filter>
+    res: 1920x1080 dpi: 81
+    size: 600x330mm (23.62x12.99")
+    diag: 685mm (27") modes:
+    max: 1920x1080 min: 720x400
+  API: EGL v: 1.5 hw: drv: intel crocus
+    platforms: device: 0 drv: crocus
+    device: 1 drv: swrast gbm:
+    drv: crocus surfaceless: drv: crocus
+    inactive: wayland,x11
+  API: OpenGL v: 4.5 compat-v: 4.2
+    vendor: mesa v: 24.1.5-arch1.1
+    note: console (EGL sourced)
+    renderer: Mesa Intel HD Graphics
+    2500 (IVB GT1), llvmpipe (LLVM
+    18.1.8 256 bits)
+  API: Vulkan Message: No Vulkan data
+    available.
+Audio:
+  Device-1: Intel 7 Series/C216 Family
+    High Definition Audio vendor: Dell
+    driver: snd_hda_intel v: kernel
+    bus-ID: 00:1b.0 chip-ID: 8086:1e20
+    class-ID: 0403
+  Device-2: SteelSeries ApS Arctis 7X
+    driver: hid-generic,snd-usb-audio,usbhid
+    type: USB rev: 1.1 speed: 12 Mb/s
+    lanes: 1 bus-ID: 1-1.5.4.4:59
+    chip-ID: 1038:12d7 class-ID: 0300
+  Device-3: Logitech C920 HD Pro Webcam
+    driver: snd-usb-audio,uvcvideo
+    type: USB rev: 2.0 speed: 480 Mb/s
+    lanes: 1 bus-ID: 3-1:3
+    chip-ID: 046d:0892 class-ID: 0102
+    serial: <filter>
+  API: ALSA v: k6.10.3-arch1-2
+    status: kernel-api
+  Server-1: sndiod v: N/A status: off
+  Server-2: JACK v: 1.9.22 status: off
+  Server-3: PipeWire v: 1.2.2
+    status: n/a (root, process) with:
+    1: pipewire-pulse status: active
+    2: wireplumber status: active
+    3: pipewire-alsa type: plugin
+Network:
+  Device-1: Intel 82579LM Gigabit Network
+    vendor: Dell driver: e1000e v: kernel
+    port: f080 bus-ID: 00:19.0
+    chip-ID: 8086:1502 class-ID: 0200
+  IF: eno1 state: up speed: 1000 Mbps
+    duplex: full mac: <filter>
+  Device-2: Intel Wi-Fi 6E
+    AX210/AX1675 2x2 [Typhoon Peak]
+    driver: iwlwifi v: kernel pcie:
+    speed: 5 GT/s lanes: 1
+    bus-ID: 03:00.0 chip-ID: 8086:2725
+    class-ID: 0280
+  IF: wlp3s0 state: down mac: <filter>
+  IF-ID-1: br-12ea48dccc04 state: up
+    speed: 10000 Mbps duplex: unknown
+    mac: <filter>
+  IF-ID-2: br-45562804dc25 state: down
+    mac: <filter>
+  IF-ID-3: bridge0 state: down
+    mac: <filter>
+  IF-ID-4: bridge0.0
+    state: lowerlayerdown speed: -1
+    duplex: unknown mac: <filter>
+  IF-ID-5: docker0 state: down
+    mac: <filter>
+  IF-ID-6: veth32f831a state: up
+    speed: 10000 Mbps duplex: full
+    mac: <filter>
+Bluetooth:
+  Device-1: Cambridge Silicon Radio
+    Bluetooth Dongle (HCI mode)
+    driver: btusb v: 0.8 type: USB
+    rev: 2.0 speed: 12 Mb/s lanes: 1
+    bus-ID: 2-1.2:3 chip-ID: 0a12:0001
+    class-ID: e001
+  Report: rfkill ID: hci0 rfk-id: 0
+    state: down bt-service: disabled
+    rfk-block: hardware: no software: no
+    address: see --recommends
+Drives:
+  Local Storage: total: 1.6 TiB
+    used: 411.87 GiB (25.2%)
+  ID-1: /dev/sda
+    vendor: Western Digital
+    model: WD5000AAKS-08V0A0
+    size: 465.76 GiB speed: 3.0 Gb/s
+    tech: HDD rpm: 7200 serial: <filter>
+    fw-rev: 1D05 scheme: GPT
+  ID-2: /dev/sdb vendor: Samsung
+    model: SSD 860 EVO 1TB size: 931.51 GiB
+    speed: 3.0 Gb/s tech: SSD
+    serial: <filter> fw-rev: 3B6Q
+    scheme: GPT
+  ID-3: /dev/sdc vendor: Samsung
+    model: Type-C size: 239.02 GiB
+    type: USB rev: 2.1 spd: 480 Mb/s
+    lanes: 1 tech: N/A serial: <filter>
+    fw-rev: 1100 scheme: MBR
+Partition:
+  ID-1: / size: 456.15 GiB
+    used: 175.47 GiB (38.5%) fs: ext4
+    dev: /dev/sdb4
+  ID-2: /boot size: 1022 MiB
+    used: 150.4 MiB (14.7%) fs: vfat
+    dev: /dev/sdb1
+Swap:
+  ID-1: swap-1 type: partition
+    size: 16 GiB used: 6.69 GiB (41.8%)
+    priority: -2 dev: /dev/sdb2
+Sensors:
+  System Temperatures: cpu: 49.0 C
+    mobo: N/A
+  Fan Speeds (rpm): N/A
+Repos:
+  Packages: 1986 pm: pacman pkgs: 1966
+    pm: flatpak pkgs: 13 pm: snap pkgs: 7
+  Active pacman repo servers in: /etc/pacman.d/mirrorlist
+    1: https://mirror.osbeck.com/archlinux/$repo/os/$arch
+    2: https://arch.mirror.constant.com/$repo/os/$arch
+    3: https://arch.niranjan.co/$repo/os/$arch
+    4: https://geo.mirror.pkgbuild.com/$repo/os/$arch
+    5: https://at.arch.mirror.kescher.at/$repo/os/$arch
+    6: https://mirror.cyberbits.eu/archlinux/$repo/os/$arch
+    7: https://mirror.theo546.fr/archlinux/$repo/os/$arch
+    8: https://mirrors.niyawe.de/archlinux/$repo/os/$arch
+    9: https://pkg.fef.moe/archlinux/$repo/os/$arch
+    10: https://arch.phinau.de/$repo/os/$arch
+    11: https://mirror.moson.org/arch/$repo/os/$arch
+    12: https://america.mirror.pkgbuild.com/$repo/os/$arch
+    13: https://archlinux.uk.mirror.allworldit.com/archlinux/$repo/os/$arch
+    14: https://md.mirrors.hacktegic.com/archlinux/$repo/os/$arch
+    15: https://asia.mirror.pkgbuild.com/$repo/os/$arch
+    16: https://london.mirror.pkgbuild.com/$repo/os/$arch
+    17: https://archlinux.thaller.ws/$repo/os/$arch
+    18: https://europe.mirror.pkgbuild.com/$repo/os/$arch
+    19: https://sydney.mirror.pkgbuild.com/$repo/os/$arch
+    20: https://mirrors.neusoft.edu.cn/archlinux/$repo/os/$arch
+Info:
+  Memory: total: 16 GiB
+    available: 15.51 GiB
+    used: 6.49 GiB (41.9%) igpu: 64 MiB
+  Processes: 430 Power:
+    uptime: 1d 23h 18m
+    states: freeze,mem,disk
+    suspend: s2idle wakeups: 0
+    hibernate: platform Init: systemd
+    v: 256 default: graphical
+  Compilers: clang: 18.1.8 gcc: 14.2.1
+    alt: 13 Shell: Bash (su) v: 5.2.32
+    running-in: pty pts/4 (SSH)
+    inxi: 3.3.35
